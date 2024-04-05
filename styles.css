@@ -1,4 +1,9 @@
-
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 nav a {
     display: inline-flex;
     padding: 10px 20px;
@@ -26,7 +31,7 @@ nav a {
   }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: "Merriweather", serif;
     background-color: white;
     align-items: center;
     background-color:white;
@@ -34,13 +39,15 @@ body{
 }
 
 section {
+    font-family:"Merriweather", serif; 
+    width: 100%;
     padding: 50px 20px;
     text-align: center;
 }
 
 #about {
     font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Merriweather", serif;
     font-weight: 500;
     color: plum;
 
@@ -53,10 +60,12 @@ section {
 
 
 #projects {
+    font-family: "Merriweather", serif;
     color: palevioletred;
 }
 
 #contact {
+    font-family:"Merriweather", serif;
     color: plum;
 }
 
@@ -68,7 +77,8 @@ section {
     max-width: 200px; border-radius: 50%;
     }
 
-   footer {
+   footer {  
+           font-family: "Merriweather", serif;
             text-align: center;
         }
 
