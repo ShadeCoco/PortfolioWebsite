@@ -3,12 +3,18 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 nav a {
     display: inline-flex;
     padding: 10px 20px;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
+    font-family: "Merriweather", serif
   }
   
   nav ul {
@@ -16,27 +22,29 @@ nav a {
     margin: 0;
     padding: 0;
     display: flex;
-    text-align: center;
+    text-align: right;
+    font-family: "Merriweather", serif
 
   }
   
 
   nav a:hover {
     background-color: pink;
+    text-align: right;
   }
 
   nav li {
     margin-right: 20px; 
-    text-align: center;
+    text-align: right;
+    font-family: "Merriweather", serif;
   }
 
 body{
-    font-family: "Merriweather", serif;
-    background-color: white;
-    align-items: center;
-    background-color:white;
-    border-radius: 20%;
-}
+   height: 100vh;
+   width: 100%;
+   background-color: #ffff;
+   font-family: "Merriweather", serif;
+  }
 
 section {
     font-family:"Merriweather", serif; 
@@ -46,7 +54,7 @@ section {
 }
 
 #about {
-    font-size: 20px;
+    font-size: 20pt;
     font-family: "Merriweather", serif;
     font-weight: 500;
     color: plum;
@@ -55,7 +63,13 @@ section {
 
 .paragraph{
     font-size: 1rem;
-    font-style: italic;
+    font-family: "Merriweather", serif;
+    margin: 20px;
+    text-align: center;
+    border-width: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 
@@ -71,15 +85,17 @@ section {
 
   #header img{
     background-color: white;
-    color: #bb8a52;
     padding: 100px 0;
-    font-style: italic;
-    max-width: 200px; border-radius: 50%;
+    max-width: 150px; border-radius: 20%;
+    display: block;
+    margin-left: auto;
+
     }
 
    footer {  
            font-family: "Merriweather", serif;
             text-align: center;
+            font-size: 10pt;
         }
 
  footer a {
