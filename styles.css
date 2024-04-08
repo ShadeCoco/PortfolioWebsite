@@ -3,107 +3,38 @@
     font-weight: 400;
     font-style: normal;
   }
-
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-nav a {
-    display: inline-flex;
-    padding: 10px 20px;
-    text-decoration: none;
-    text-align: right;
-    font-family: "Merriweather", serif
-  }
-  
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    text-align: right;
-    font-family: "Merriweather", serif
-
-  }
-  
-
-  nav a:hover {
-    background-color: pink;
-    text-align: right;
-  }
-
-  nav li {
-    margin-right: 20px; 
-    text-align: right;
+  #name{
     font-family: "Merriweather", serif;
-  }
-
-body{
-   height: 100vh;
-   width: 100%;
-   background-color: #ffff;
-   font-family: "Merriweather", serif;
-  }
-
-section {
-    font-family:"Merriweather", serif; 
-    width: 100%;
-    padding: 50px 20px;
-    text-align: center;
-}
-
-#about {
-    font-size: 20pt;
-    font-family: "Merriweather", serif;
-    font-weight: 500;
-    color: plum;
-
-}
-
-.paragraph{
-    font-size: 1rem;
-    font-family: "Merriweather", serif;
-    margin: 20px;
-    text-align: center;
-    border-width: 20px;
-    padding-bottom: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-
-
-#projects {
-    font-family: "Merriweather", serif;
+    font-weight: bold;
     color: palevioletred;
+  }
+  
+#header{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 1,1,0;
+    margin-top: 20px;
 }
-
-#contact {
-    font-family:"Merriweather", serif;
-    color: plum;
+.btn{
+    padding: 10px;
+    background-color:pink;
+    color: #fff;
+    border-radius: 5px;
+    border: none
 }
-
-  #header img{
-    background-color: white;
-    padding: 100px 0;
-    max-width: 150px; border-radius: 20%;
-    display: block;
+.aboutme{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+gap: 2rem;
+}
+#img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-flex;
     margin-left: auto;
-
-    }
-
-   footer {  
-           font-family: "Merriweather", serif;
-            text-align: center;
-            font-size: 10pt;
-        }
-
- footer a {
-            display: inline-block;
-            margin: 0 10px; /* Adjust the spacing between links */
-        }
-  footer img {
-            width: 30px; /* Adjust the size of the images */
-            height: auto;
-            border: none; /* Remove image borders */
-        }
+    float: right;
+}

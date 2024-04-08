@@ -10,36 +10,49 @@
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav>
-     <a href="#about"> <button type="button">About Me</button></a>
-        <a href="#portfolio"><button type="button">Projects</button></a>
-        <a href="#contact"><button type="button">Contact</button></a>
+    <nav id="header">
+     <a href="#about"> <button class="btn" type="button">About Me</button></a>
+        <a href="#portfolio"><button class="btn" type="button">Projects</button></a>
+        <a href="#contact"><button class="btn" type="button">Contact</button></a>
       </nav>
-<section id="header">
+    
+    <div class="intro">
+<section>
     <h1>Elevating User Experience,One Line Of Code at a Time!</h1>
-    <h2>Hello,I am Folashade, An Entry Level fullstack Web Developer</h2>
-    <img src="images/lightt.jpg" alt="Picture">
+    <h2>Hello,I am <span id="name">Folashade,</span> An Entry Level fullstack Web Developer</h2>
 </section>
+</div>
 
-<section id="about">
+<div class="about me">
+<section>
     <h2>About Me</h2>
     <p class="paragraph">Driven by a desire to innovate and solve problems, and a background in understanding client needs and a dedication to providing excellent user experiences, I offer a distinct viewpoint to each project. I thrive in collaborative settings
-         and am excited to use my wide skill set to build dynamic and powerful digital solutions</p>
+         and am excited to use my wide skill set to build dynamic and powerful digital solutions <span><img id="img" src="images/lightt.jpg" alt="Picture"></span></p>
 </section>
-<section id="projects">
+</div>
+
+<div class="Projects">
+<section>
     <h2>Projects</h2>
     <p><a href="https://shadecoco.github.io/html_portfolio/">First Html Portfolio</a></p>
 </section>
-<section id="contact">
+</div>
+
+<div class="Contact">
+<section>
         <h2>Contact Me</h2>
         <p>ayodeleshadee@gmail.com</p>
         <p>09032836846</p>
     </section>
+</div>
 
-    <footer>
+<div class="footer">
+    <footer id="footer-img">
      <a href="https://www.linkedin.com/"><img src="images/linkedin_145807.png" alt="LinkedIn"></a>
      <a href="https://twitter.com/"> <img src="images/twitter_5969020.png" alt="Twitter"></a>
      <p>Handcrafted by me © 2024</p>
     </footer>
+</div>
+
 </body>
 </html>
